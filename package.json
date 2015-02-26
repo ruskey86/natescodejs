@@ -1,0 +1,21 @@
+{
+  "name": "natescodejs",
+  "version": "0.1.0",
+  "description": "Lightweight web component library with templating.",
+  "main": "natescode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "components",
+    "templating",
+    "engine",
+    "natescode"
+  ],
+  "author": "Nathan Hedglin <nate@natescode.com> (http://www.natescode.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}

@@ -1,0 +1,50 @@
+<!-- bc sales item such as a Barrel, tote, bucket or pale -->
+<template id="bc-item">
+    <style>
+        .item {
+            width: 100%;
+            height: 250px;
+        }
+
+        .item div {
+            float: left;
+            height: 100%;
+            width: 300px;
+            margin-left: 5px;
+            text-align: left;
+        }
+
+        #pic {
+            float: left;
+            width: auto;
+            height: 100%;
+        }
+    </style>
+    <div class="item">
+        <img src="" id="pic"/>
+
+        <div>
+            <h3>{{title}}</h3>
+
+            <p>{{description}}</p>
+        </div>
+        <div>
+            <input type="hidden" name="on0" value="Convenient &amp; Secure!">Convenient &amp; Secure!
+            <select name="os0">
+                <option id="option" value="55 Gallon Resealable">55 Gallon Resealable ${{price}}.00 USD</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit"
+                   alt="PayPal - The safer, easier way to pay online!">
+        </div>
+    </div>
+</template>
+
+<!-- Another Component -->
+<template id="n-message-window">
+    <input type="text" placeholder="{{placeholdertext}}"/>
+    <br>
+    <button>Enter</button>
+
+</template>
